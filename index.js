@@ -10,7 +10,7 @@ app.post('/api/data', (req, res) => {
   const ipAddress = req.ip; // Get the IP address from the request
 
   // Send back the IP address in the response
-  res.status(200).json({ message: 'Data received successfully!', data: body, ipAddress });
+  res.status(200).json({ message: 'Data received successfully! ', data: body, ipAddress });
 });
 
 // Start the server
